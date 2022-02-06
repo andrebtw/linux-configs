@@ -184,15 +184,15 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 
-# HiDPI scaling
-exec xrandr --dpi 158
+# HiDPI scaling (find your screen dpi/ppi at https://www.omnicalculator.com/other/pixels-per-inch)
+#exec xrandr --dpi 158
 
-# Gaps between the windows
-gaps inner 20
-gaps outer 10
+# Gaps between the windows (install i3-gaps first)
+#gaps inner 20
+#gaps outer 10
 
-# Polybar launch
-exec --no-startup-id polybar example
+# Polybar launch (install polybar first)
+#exec --no-startup-id polybar example
 
 #Timeout unlimited
 exec --no-startup-id xset dpms 999999
@@ -203,8 +203,8 @@ for_window [class="^.*"] border pixel 1
 
 # i3 colors
 
-# Set wallpaper
-exec --no-startup-id feh --bg-scale ~/Downloads/background.jpg
+# Set wallpaper (install feh first)
+#exec --no-startup-id feh --bg-scale ~/Downloads/background.jpg
 
-# Window Compositor
-exec_always picom -f
+# Window Compositor (install picom first)
+#exec_always picom -f
