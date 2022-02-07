@@ -208,3 +208,6 @@ for_window [class="^.*"] border pixel 1
 
 # Window Compositor (install picom first)
 #exec_always picom -f
+
+# French keyboard
+#exec --no-startup-id setxkbmap fr
